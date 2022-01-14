@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&family=Poppins:wght@500&family=Raleway:wght@600&display=swap");
+
+/* Common styls / utilities */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hotpink;
+}
+
+header {
+  height: 100vh;
+  background-image: url("./images/cloud.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.logo img {
+  transition: 0.5s linear;
+}
+.logo:hover img {
+  transform: translateX(15px) scale(1.1);
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px 16px;
+}
+
+.navbar ul li:hover a {
+  color: rgb(255, 6, 6);
+}
+
+/* Banner start */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.banner-left {
+  flex: 1;
+}
+
+.banner-right {
+  flex: 1;
+}
+
+.banner-right img {
+  width: 80%;
+  /* border: 5px solid #ff008e; */
+  border-radius: 20px;
+  margin-left: 70px;
+}
+
+.button-style {
+  padding: 8px 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #ff008e;
+  border: 2px solid #ff008e;
+}
+
+.banner-heading {
+  color: white;
+  font-size: 26px;
+}
+
+span {
+  color: #ff008e;
+  font-weight: bold;
+}
+
+.banner-para {
+  margin: 25px 0px;
+  color: #f7971f;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.button-style:hover {
+  background-color: transparent;
+}
