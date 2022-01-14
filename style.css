@@ -181,7 +181,7 @@ span {
   text-transform: uppercase;
   background-color: #ff008e;
   border: 1px solid #ff008e;
-  box-shadow: 0px 7px 50px #e01886;
+  box-shadow: 0px 7px 50px #fd7bc3;
   position: relative;
   top: 0px;
 }
@@ -189,5 +189,4 @@ span {
 .card-button:active {
   color: #ff008e;
   top: 5px;
-  background-color: transparent;
 }
