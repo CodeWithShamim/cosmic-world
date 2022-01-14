@@ -9,11 +9,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: hotpink;
 }
 
 header {
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url("./images/cloud.png");
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
@@ -63,6 +62,7 @@ nav {
 
 /* Banner start */
 .banner {
+  height: calc(100vh - 80px);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -84,6 +84,7 @@ nav {
 }
 
 .button-style {
+  outline: 0;
   padding: 8px 15px;
   margin-top: 20px;
   border-radius: 20px;
@@ -96,7 +97,7 @@ nav {
 
 .banner-heading {
   color: white;
-  font-size: 26px;
+  font-size: 40px;
 }
 
 span {
@@ -106,8 +107,9 @@ span {
 
 .banner-para {
   margin: 25px 0px;
-  color: #f7971f;
+  color: #f8f8f8;
   font-size: 18px;
+  line-height: 1.5;
   text-align: justify;
 }
 
